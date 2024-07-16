@@ -33,7 +33,7 @@ def image_generator(design_response):
 api_key = st.secrets['OPENSI_API_KEY']
 client = OpenAI(api_key=api_key)
 
-st.title("OpenSI Story Generator")
+st.title("OpenAI Story Generator")
 
 with st.form("Form"):
   st.write("This is for user to key in information.")
